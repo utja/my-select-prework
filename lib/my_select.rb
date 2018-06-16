@@ -1,6 +1,5 @@
 def my_select(collection)
   if block_given?
-    puts ""
     i = 0
     array = []
     while i < collection.length
@@ -10,4 +9,6 @@ def my_select(collection)
     end
     i += 1
     array
+  else
+    puts "This block should not run!"
 end
