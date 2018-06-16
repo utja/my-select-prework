@@ -1,5 +1,5 @@
 def my_select(collection)
-  count = 0
+  i = 0
   array = []
   
   while count < collection.length
