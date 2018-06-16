@@ -1,5 +1,5 @@
 def my_select(collection)
-  if collection == []
+  if 
     puts ""
   i = 0
   array = []
