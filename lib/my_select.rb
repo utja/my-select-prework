@@ -6,8 +6,8 @@ def my_select(collection)
       if yield (collection[i]) == true
         array.push(collection[i])
       end
+      i += 1
     end
-    i += 1
     array
   else
     puts "This block should not run!"
