@@ -1,4 +1,5 @@
 def my_select(collection)
+  if collection == []
   i = 0
   array = []
   while i < collection.length
