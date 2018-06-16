@@ -11,4 +11,5 @@ def my_select(collection)
     array
   else
     puts "This block should not run!"
+  end
 end
